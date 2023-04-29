@@ -1,14 +1,43 @@
+*{
+margin:0;
+padding:0;
+}
+
 .cabecalho {
-    color: rgb(0, 255, 234);
-    background-color:#424E61 ;
+    color: rgb(231, 225, 215);
+    background-color:#4a4261 ;
  display: flex;
 justify-content:space-around ;
+align-items: center;
+margin: 24px 0;
 }
 
 .cabecalho-imagem{
-    width: 0,5%; ;
-
-
+    width: 0,5%; 
 }
 
+.cabecalho-lista-intem{
+    display: inline-block;
+    margin:0 16px;
+    font-size: 24px; 
+}
+.carro-imagem{
+    width: 25%;
+}
 
+.pagamento{
+    background-image: linear-gradient(#4a4261,#3a124a);
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.pagamento-div-conteudo{
+    width: 35%;
+}
+
+.pagamento-titulo{
+    padding: 24px 0 ;
+}
