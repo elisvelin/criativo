@@ -2,7 +2,9 @@
 margin:0;
 padding:0;
 }
-
+body{
+    font-family: 'Poppins', sans-serif;   
+}
 .cabecalho {
     color: rgb(231, 225, 215);
     background-color:#4a4261 ;
